@@ -6,5 +6,5 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 // @ConfigurationProperties(value = "app")
 public record KoinoniaProperties(
   String name,
-  String env
+  String desc
 ) {}
